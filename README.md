@@ -82,21 +82,9 @@ Sysmon **Event ID 1 (Process Creation)** captured the PowerShell execution with 
 | MITRE Technique Confirmed | PowerShell (T1059.001) |
 | MITRE Tactic Confirmed | Execution |
 
-### Screenshots
-
-**Screenshot 1 - Wazuh Threat Hunting Dashboard: MITRE ATT&CK Wheel showing PowerShell detection**
-
-> *(Add screenshots/wazuh-mitre-wheel.png here)*
-
-**Screenshot 2 - Wazuh Events Tab: 432 security events from DESKTOP-JRU2NP1**
-
-> *(Add screenshots/wazuh-events-tab.png here)*
-
 ---
 
 ## Extension: AI-Powered Alert Summarizer
-
-**Live Demo:** https://wazuhai-36zejwby.manus.space
 
 To reduce analyst triage time, an AI-powered web app was built on top of the detection pipeline. A SOC analyst can paste any raw Wazuh alert JSON into the tool and receive an instant structured incident report.
 
